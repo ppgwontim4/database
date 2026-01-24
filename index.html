@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Database PPG Wontim 4</title>
     <style>
-        /* Menghilangkan semua margin agar bingkai menempel ke pinggir layar */
-        body, html { 
-            margin: 0; padding: 0; height: 100%; width: 100%;
-            overflow: hidden; background-color: #ffffff; 
-        }
-        /* Memaksa iframe mengikuti ukuran layar asli HP */
-        iframe { 
-            position: absolute; 
-            top: 0; left: 0; 
-            width: 100%; height: 100%; 
-            border: none; 
-        }
-    </style>
+    body, html { 
+        margin: 0; padding: 0; 
+        height: 100%; width: 100%; 
+        overflow: hidden; /* Mengunci agar tidak bisa digeser ke samping di level GitHub */
+        background-color: #f3f4f6; /* Warna abu-abu yang sama */
+    }
+    iframe { 
+        width: 100%; 
+        height: 100vh; 
+        border: none;
+        display: block;
+    }
+</style>
 </head>
 <body>
     <iframe src="https://script.google.com/macros/s/AKfycbx2vFbes7UwmDl4lkZrViTkX5FEmRh1k4dch8WEjZzpJTSJewTIwa_NR25dbAXqaY18-g/exec"></iframe>
