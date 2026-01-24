@@ -8,12 +8,12 @@
   "theme_color": "#10b981",
   "icons": [
     {
-      "src": "https://drive.google.com/uc?export=view&id=1HNQFBwYeYyTOJJZ5Er3QQswI22MQt2Qa",
+      "src": "https://placehold.co/192x192/10b981/ffffff?text=PPG",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://drive.google.com/uc?export=view&id=1HNQFBwYeYyTOJJZ5Er3QQswI22MQt2Qa",
+      "src": "https://placehold.co/192x192/10b981/ffffff?text=PPG",
       "sizes": "512x512",
       "type": "image/png"
     }
