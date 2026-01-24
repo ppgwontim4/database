@@ -28,8 +28,9 @@
     <iframe src="https://script.google.com/macros/s/AKfycby56ifzsUCdUpwYiDlBAUFBDVZ1m0IpBZ11AqepLx-tUdou4SPiCXeZWI2_70Rhu2nRMw/exec"></iframe>
 <script>
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('https://ppgwontim4.github.io/sw.js')
-      .then(() => console.log("Service Worker Registered"));
+    navigator.serviceWorker.register('./sw.js')
+      .then(reg => console.log('SW terdaftar!', reg))
+      .catch(err => console.log('SW Gagal!', err));
   }
 </script>
 </body>
