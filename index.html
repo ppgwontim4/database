@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Database PPG Wontim 4</title>
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#10b981">
     <style>
     body, html { 
         margin: 0; padding: 0; 
@@ -21,5 +26,11 @@
 </head>
 <body>
     <iframe src="https://script.google.com/macros/s/AKfycby56ifzsUCdUpwYiDlBAUFBDVZ1m0IpBZ11AqepLx-tUdou4SPiCXeZWI2_70Rhu2nRMw/exec"></iframe>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('https://ppgwontim4.github.io/sw.js')
+      .then(() => console.log("Service Worker Registered"));
+  }
+</script>
 </body>
 </html>
