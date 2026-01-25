@@ -1,22 +1,20 @@
 {
-  "name": "Database PPG Wontim 4",
-  "short_name": "PPG Wontim 4",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#10b981",
-  "theme_color": "#10b981",
+  "short_name": "Database PPG WT 4",
+  "name": "PPG Wontim 4",
   "icons": [
     {
-      "src": "https://drive.google.com/uc?export=view&id=1HNQFBwYeYyTOJJZ5Er3QQswI22MQt2Qa",
+      "src": "logo.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "https://drive.google.com/uc?export=view&id=1HNQFBwYeYyTOJJZ5Er3QQswI22MQt2Qa",
+      "src": "logo.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
-  ]
+  ],
+  "start_url": "/ppgwontim4.github.io/",
+  "display": "standalone",
+  "theme-color": "#25D366",
+  "background_color": "#ffffff"
 }
